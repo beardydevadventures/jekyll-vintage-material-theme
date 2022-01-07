@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_layouts"
+    "\\_includes",
+    "\\_layouts",
+    "\\_portfolio",
+    "\\_posts",
+    "\\_sass"
   ],
-  "SelectedNode": "\\_layouts\\home.html",
+  "SelectedNode": "\\_portfolio\\2021-12-30-welcome-to-jekyll (3).md",
   "PreviewInSolutionExplorer": false
 }

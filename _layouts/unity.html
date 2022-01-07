@@ -1,0 +1,33 @@
+{% if page.game_name %}
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl}}/assets/unity/{{page.unity_dir}}/Build/builds.json",{onProgress: UnityProgress});  
+</script>
+
+<script>
+  const GAME_PATH = "{{ site.baseurl }}/assets/unity/{{ page.unity_dir }}/Build/builds.json"
+
+  function start(gamePath) {
+    console.log('Starting game')
+      
+    UnityLoader.instantiate(
+      "gameContainer", 
+       gamePath, 
+       {onProgress: UnityProgress}
+    );  
+
+    console.log('Done')
+  }
+</script>
+
+<button id="start-button" onClick="start(GAME_PATH)">
+ Start playing 
+</button>
+
+<div id="gameContainer"
+</div>
+
+<script>
+  const gameName = '{{ page.game_name }}'
+  start(gameName)
+</script>
+{% endif %}

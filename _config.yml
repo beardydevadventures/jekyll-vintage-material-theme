@@ -19,14 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Vintage Theme
-email: m.aisthorpe@outlook.com
+email: your-email@email.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a quick description
+  This is a quick description of your site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matthewaisthorpe.com.au" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ThatMattAppears
-github_username:  mattaisthorpe
-linkedin_username: matthewaisthorpe
+twitter_username: twitter
+github_username:  github_username
+linkedin_username: linkedin
 gtag: UA-XXXXXXXX-X
 
 # Build settings

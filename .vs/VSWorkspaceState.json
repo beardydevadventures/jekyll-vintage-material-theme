@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_includes",
-    "\\_layouts",
-    "\\_portfolio",
-    "\\_posts",
-    "\\_sass"
+    "\\css"
   ],
-  "SelectedNode": "\\_portfolio\\2021-12-30-welcome-to-jekyll (3).md",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
